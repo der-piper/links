@@ -58,8 +58,7 @@ add_bg_from_local('media/5350_3d-removebg.png')
 
 # content
 
-
-col1, col2, col3 = st.columns(3)
+col1,col2,col3 = st.columns([1,1,3])
 with col1:
     header_html = "<img src='data:image/png;base64,{}' class='avatar' id='avatar' />".format(img_to_bytes("media/5350_3d-removebg_small.png"))
     st.markdown(
@@ -67,6 +66,8 @@ with col1:
     )
 with col2:
     st.header('Piper')
+with col3:
+    st.text('')
 
 st.subheader('On-chain Data Analyst, Flipside Crypto Community Moderator')
 
