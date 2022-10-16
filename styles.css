@@ -22,9 +22,17 @@ div.link-list {
     background-color: transparent;
     margin-top: 15px;
     cursor: pointer;
+    color: #172d43;
 }
 
 div.link-list a {
+    color: #b5d9ec;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+div.link-list a:hover {
+    color: #2e9aff;
     padding-left: 10px;
     text-decoration: none;
 }

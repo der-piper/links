@@ -78,7 +78,7 @@ create_button('📝 medium', '@der_piper','https://medium.com/@der_piper')
 
 create_button('📝 Flipside Crypto Discord', 'piper#6707','https://discord.gg/enrH6bPA')
 
-create_button('📝 GitHub', 'der-piper','https://github.com/https://github.com/der-piper')
+create_button('📝 GitHub', 'der-piper','https://github.com/der-piper')
 
 
 
