@@ -61,7 +61,7 @@ add_bg_from_local('media/5350_3d-removebg.png')
 
 col1, col2, col3 = st.columns(3)
 with col1:
-    header_html = "<img src='data:image/png;base64,{}' id='avatar' />".format(img_to_bytes("media/5350_3d-removebg_small.png"))
+    header_html = "<img src='data:image/png;base64,{}' class='avatar' id='avatar' />".format(img_to_bytes("media/5350_3d-removebg_small.png"))
     st.markdown(
         header_html, unsafe_allow_html=True,
     )
