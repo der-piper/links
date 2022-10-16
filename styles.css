@@ -15,8 +15,14 @@ img.avatar {
 }
 
 div.link-list {
-    border: 1px solid blue;
+    border: 1px solid #b5d9ec;
     padding: 15px;
     width: 100%;
     background-color: #26292f;
+    margin-top: 5px;
+}
+
+div.link-list a {
+    padding-left: 10px;
+    text-decoration: none;
 }
