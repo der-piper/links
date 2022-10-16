@@ -65,6 +65,7 @@ with col1:
     st.markdown(
         header_html, unsafe_allow_html=True,
     )
+with col2:
     st.header('Piper')
 
 st.subheader('On-chain Data Analyst, Flipside Crypto Community Moderator')
