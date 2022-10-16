@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 import base64
 
-background_img = Image.open("media/5350_3d-removebg.png")
+avatar = Image.open("media/5350_3d-removebg_small.png")
 #fav_icon = Image.open("media/")
 
 # App Title
@@ -52,11 +52,18 @@ add_bg_from_local('media/5350_3d-removebg.png')
 
 # content
 
-st.header('Piper')
+
+col1, col2, col3 = st.columns(3)
+with col1:
+    st.image(avatar)
+    st.header('Piper')
+    
 st.subheader('On-chain Data Analyst, Flipside Crypto Community Moderator')
 
 st.text('')
 st.text('')
+
+
 
 st.markdown(f"""🐦 twitter: <a href=\"https://twitter.com/der_piper\" target=\"_blank\"> piper</a>""", unsafe_allow_html=True)
 
