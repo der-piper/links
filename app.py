@@ -3,9 +3,6 @@ from PIL import Image
 import base64
 from pathlib import Path
 
-avatar = Image.open("media/5350_3d-removebg_small.png")
-#fav_icon = Image.open("media/")
-
 # App Title
 app_title = "Piper's Links "
 app_description = ""
@@ -57,7 +54,6 @@ with open('styles.css') as style:
 add_bg_from_local('media/5350_3d-removebg.png') 
 
 # content
-
 col1,col2,col3 = st.columns([1,1,6])
 with col1:
     header_html = "<img src='data:image/png;base64,{}' class='avatar' id='avatar' />".format(img_to_bytes("media/5350_3d-removebg_small.png"))
@@ -76,14 +72,10 @@ st.info('Just a guy who is interested in web3, nft and data analysis 📊 📈 �
 st.text('')
 st.text('')
 
-
-
 st.markdown(f"""🐦 twitter: <a href=\"https://twitter.com/der_piper\" target=\"_blank\"> piper</a>""", unsafe_allow_html=True)
 
 st.text('')
 st.text('')
 
 #footer
-col1,col2 = st.columns(2)
-with col2:
-   st.text('© 2022 - Made with ❤️ in Potsdam')
+st.text('© 2022 - Made with ❤️ in Potsdam')
