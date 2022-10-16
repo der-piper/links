@@ -21,13 +21,15 @@ st.set_page_config(
 with open('styles.css') as style:
     st.markdown(f'<style>{style.read()}</style>', unsafe_allow_html=True)
 
-st.text('')
-st.text('')
-st.text('')
 
-col1,col2 = st.columns(2)
-with col2:
-    st.image(background_img, width=500)
+st.markdown(f'''<style>
+body {
+    background-image: url("media/5350_3d-removebg.png");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+ }
+</style>''', unsafe_allow_html=True)
+
 
 st.header('Piper')
 st.subheader('On-chain Data Analyst, Flipside Crypto Community Moderator')
