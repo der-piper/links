@@ -13,14 +13,9 @@ app_description = ""
 st.set_page_config(
     page_title = app_title, 
     #page_icon = fav_icon, 
-    layout = "wide",
-    initial_sidebar_state="collapsed"
+    #layout = "wide",
+    #initial_sidebar_state="collapsed"
     )
-
-# styles.css
-
-with open('styles.css') as style:
-    st.markdown(f'<style>{style.read()}</style>', unsafe_allow_html=True)
 
 def add_bg_from_local(image_file):
     with open(image_file, "rb") as image_file:
@@ -37,8 +32,25 @@ def add_bg_from_local(image_file):
     """,
     unsafe_allow_html=True
     )
+
+def create_button(title, link, icon)
+
+    st.markdown(
+    f"""
+    <div class="">
+        {icon} <a href="{link}">{title}</a>
+    </div>
+    """,
+    unsafe_allow_html=True
+    )
+
+# styles.css
+with open('styles.css') as style:
+    st.markdown(f'<style>{style.read()}</style>', unsafe_allow_html=True)
+
 add_bg_from_local('media/5350_3d-removebg.png') 
 
+# content
 
 st.header('Piper')
 st.subheader('On-chain Data Analyst, Flipside Crypto Community Moderator')
@@ -51,6 +63,7 @@ st.markdown(f"""🐦 twitter: <a href=\"https://twitter.com/der_piper\" target=\
 st.text('')
 st.text('')
 
+#footer
 col1,col2 = st.columns(2)
 with col2:
    st.text('© 2022 - Made with ❤️ in Potsdam')
