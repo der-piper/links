@@ -66,6 +66,7 @@ with col1:
     )
 with col2:
     st.header('Piper')
+    st.text('On-chain Data Analyst, Flipside Crypto Community Moderator')
 with col3:
     st.text('')
 
