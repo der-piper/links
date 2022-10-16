@@ -29,6 +29,7 @@ div.link-list a {
     color: #b5d9ec;
     padding-left: 10px;
     text-decoration: none;
+    display: block;
 }
 
 div.link-list a:hover {
