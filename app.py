@@ -40,7 +40,7 @@ def create_button(prefix, title, link):
 
     st.markdown(
     f"""
-    <div class="link-list">
+    <div class="link-list" >
         {prefix} <a href="{link}" target="_blank">{title}</a>
     </div>
     """,
