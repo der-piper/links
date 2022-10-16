@@ -41,7 +41,7 @@ def create_button(prefix, title, link):
     st.markdown(
     f"""
     <div class="link-list" >
-        {prefix} <a href="{link}" target="_blank">{title}</a>
+        {prefix}: <a href="{link}" target="_blank">{title}</a>
     </div>
     """,
     unsafe_allow_html=True
@@ -73,6 +73,14 @@ st.text('')
 st.text('')
 
 create_button('🐦 twitter', '@der_piper','https://twitter.com/der_piper')
+
+create_button('📝 medium', '@der_piper','https://medium.com/@der_piper')
+
+create_button('📝 Flipside Crypto Discord', 'piper#6707','https://discord.gg/enrH6bPA')
+
+create_button('📝 GitHub', 'der-piper','https://github.com/https://github.com/der-piper')
+
+
 
 st.text('')
 st.text('')
