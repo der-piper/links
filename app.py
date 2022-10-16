@@ -36,12 +36,12 @@ def img_to_bytes(img_path):
     encoded = base64.b64encode(img_bytes).decode()
     return encoded
 
-def create_button(title, link, icon):
+def create_button(prefix, title, link):
 
     st.markdown(
     f"""
-    <div class="">
-        {icon} <a href="{link}">{title}</a>
+    <div class="link-list">
+        {prefix} <a href="{link}" target="_blank">{title}</a>
     </div>
     """,
     unsafe_allow_html=True
@@ -72,7 +72,7 @@ st.info('Just a guy who is interested in web3, nft and data analysis 📊 📈 �
 st.text('')
 st.text('')
 
-st.markdown(f"""🐦 twitter: <a href=\"https://twitter.com/der_piper\" target=\"_blank\"> piper</a>""", unsafe_allow_html=True)
+create_button('🐦 twitter', '@der_piper','https://twitter.com/der_piper')
 
 st.text('')
 st.text('')
