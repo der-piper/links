@@ -33,7 +33,7 @@ def add_bg_from_local(image_file):
     unsafe_allow_html=True
     )
 
-def create_button(title, link, icon)
+def create_button(title, link, icon):
 
     st.markdown(
     f"""
