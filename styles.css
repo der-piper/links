@@ -8,11 +8,8 @@ header {
     visibility: hidden;
 }
 
-img #avatar {
-    border-radius: 50%;
-}
-
 img.avatar {
     border-radius: 50%;
     background-color: #ffffff;
+    display: inline;
 }
