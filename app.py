@@ -1,6 +1,7 @@
 import streamlit as st
 from PIL import Image
 import base64
+from pathlib import Path
 
 avatar = Image.open("media/5350_3d-removebg_small.png")
 #fav_icon = Image.open("media/")
