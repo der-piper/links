@@ -8,6 +8,6 @@ header {
     visibility: hidden;
 }
 
-img.avatar {
+img #avatar {
     border-radius: 50%;
 }
