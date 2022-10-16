@@ -7,3 +7,7 @@ footer {
 header {
     visibility: hidden;
 }
+
+img.avatar {
+    border-radius: 50%;
+}

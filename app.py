@@ -58,7 +58,7 @@ with col1:
     #st.image(avatar)
     st.markdown(
     f"""
-    <img src="media/5350_3d-removebg_small.png" id="avata" alt="Piper" />
+    <img src="{avatar}" id="avata" alt="Piper" />
     """,
     unsafe_allow_html=True
     )
