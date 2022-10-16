@@ -33,11 +33,6 @@ def add_bg_from_local(image_file):
     unsafe_allow_html=True
     )
 
-def img_to_bytes(img_path):
-    img_bytes = Path(img_path).read_bytes()
-    encoded = base64.b64encode(img_bytes).decode()
-    return encoded
-
 def create_button(title, link, icon):
 
     st.markdown(
@@ -60,7 +55,7 @@ add_bg_from_local('media/5350_3d-removebg.png')
 
 col1, col2, col3 = st.columns(3)
 with col1:
-    header_html = "<img src='data:image/png;base64,{}' id='avatar' />".format(img_to_bytes("header.png"))
+    header_html = "<img src='data:image/png;base64,{}' id='avatar' />".format(img_to_bytes("media/5350_3d-removebg_small.png"))
     st.markdown(
         header_html, unsafe_allow_html=True,
     )
