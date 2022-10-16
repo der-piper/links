@@ -69,7 +69,7 @@ with col2:
 with col3:
     st.text('')
 
-st.text('On-chain Data Analyst, Flipside Crypto Community Moderator')
+st.write('On-chain Data Analyst, Flipside Crypto Community Moderator')
 
 st.text('')
 st.text('')
