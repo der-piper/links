@@ -71,6 +71,8 @@ with col3:
 
 st.write('On-chain Data Analyst, Flipside Crypto Community Moderator')
 
+st.info('Just a guy who is interested in web3, nft and data analysis 📊 📈 📉 ... ')
+
 st.text('')
 st.text('')
 
