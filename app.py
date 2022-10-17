@@ -82,6 +82,8 @@ create_button('📝 GitHub', 'der-piper','https://github.com/der-piper')
 
 st.text('')
 st.text('')
+st.text('')
+st.text('')
 
 #footer
 st.text('© 2022 - Made with ❤️')
