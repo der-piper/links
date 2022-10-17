@@ -80,10 +80,8 @@ create_button('📝 Flipside Crypto Discord', 'piper#6707','https://discord.gg/e
 
 create_button('📝 GitHub', 'der-piper','https://github.com/der-piper')
 
-
-
 st.text('')
 st.text('')
 
 #footer
-st.text('© 2022 - Made with ❤️ in Potsdam')
+st.text('© 2022 - Made with ❤️')
