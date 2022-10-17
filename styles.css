@@ -8,6 +8,9 @@ header {
     visibility: hidden;
 }
 
+button[title="View fullscreen"]{visibility: hidden;}
+.css-d0oiir {visibility: hidden; display:none;}
+
 img.avatar {
     border-radius: 50%;
     background-color: #26292f;
@@ -36,8 +39,3 @@ div.link-list a:hover {
     padding-left: 10px;
     text-decoration: none;
 }
-
-div[data-testid="metric-container"] {background-color: #ffffff; border: 1px solid #eeeeee; padding: 5% 5% 5% 10%; border-radius: 10px; color: #0174be;}
-.css-rvhob5 {font-weight: bold;}
-button[title="View fullscreen"]{visibility: hidden;}
-.css-d0oiir {visibility: hidden; display:none;}
