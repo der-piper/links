@@ -22,14 +22,13 @@ div.link-list {
     background-color: transparent;
     margin-top: 15px;
     cursor: pointer;
-    color: #172d43;
+    color: #2e9aff;
 }
 
 div.link-list a {
     color: #b5d9ec;
     padding-left: 10px;
     text-decoration: none;
-    display: block;
 }
 
 div.link-list a:hover {
@@ -37,3 +36,8 @@ div.link-list a:hover {
     padding-left: 10px;
     text-decoration: none;
 }
+
+div[data-testid="metric-container"] {background-color: #ffffff; border: 1px solid #eeeeee; padding: 5% 5% 5% 10%; border-radius: 10px; color: #0174be;}
+.css-rvhob5 {font-weight: bold;}
+button[title="View fullscreen"]{visibility: hidden;}
+.css-d0oiir {visibility: hidden; display:none;}
